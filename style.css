@@ -1,0 +1,223 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing : border-box;
+}
+.bgImage{
+background: url(img/bg.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+}
+
+.headerset{
+padding-top: 200px;
+}
+
+.headerset h2{
+font-size: 42px;
+}
+.headerset h1{
+font-size: 52px;
+font-weight: bold;
+}
+
+/*first section*/
+
+.firstSection{
+margin-top:50px;
+width: 100vw;
+height: 100vh;
+background: white;
+}
+
+.rowsetting{
+margin-top: 80px ;
+}
+.ourService{
+
+padding-top: 80px ;
+
+}
+.ourService h1{
+font-size: 50px;
+font-weight: bold;
+}
+
+.imgsetting{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+border: 2px solid;
+padding: auto;
+display: block;
+margin: auto;
+}
+
+.fa-shopping-cart{
+margin-top: 20px;
+}
+
+
+.fa-lock{
+margin-top: 20px;
+}
+
+
+.fa-desktop{
+margin-top: 20px;
+}
+
+
+
+/*second section portfolio*/
+
+.portfolio{
+height: 150vh;
+width: 100vw;
+padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+font-size: 40px;
+font-weight: bold;
+}
+
+.card{
+margin-top: 40px;
+
+}
+
+.card img{
+width: 500px;
+height: 200px;
+}
+
+.ourTeam{
+padding: 100px 0px 60px;
+width: 100%;
+}
+.ourTeam {
+    height: 70vh;
+}
+.ourTeam h1{
+font-size: 40px;
+font-weight: bold;
+}
+
+.teamsetting{
+margin-top: 50px;
+}
+
+footer h6{
+background: black;
+line-height: 50px;
+}
+
+/* media querys*/
+@media (min-width: 992px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+.bgImage{
+width: 100%;
+height: 50vh;
+background-size: cover;
+}
+
+.headerset{
+padding-top: 120px;
+}
+
+.headerset h2{
+font-size: 22px;
+}
+.headerset h1{
+font-size: 28px;
+font-weight: bold;
+}
+
+
+.portfolio{
+height: 460vh;
+
+}
+}
+.ourTeam{
+height: 150vh;
+}
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 574px){
+
+.bgImage{
+width: 100%;
+height: 40vh;
+background-size: cover;
+}
+
+.headerset{
+padding-top: 120px;
+}
+
+.headerset h2{
+font-size: 22px;
+}
+.headerset h1{
+font-size: 28px;
+font-weight: bold;
+}
+
+
+.portfolio{
+height: 360vh;
+
+}
+}
+.ourTeam{
+height: 150vh;
+}
+}
+
+@media (max-width: 479px){
+
+.bgImage{
+width: 100%;
+height: 50vh;
+background-size: cover;
+}
+
+
+.headerset{
+padding-top: 100px;
+}
+
+.headerset h2{
+font-size: 22px;
+}
+.headerset h1{
+font-size: 32px;
+font-weight: bold;
+}
+
+
+.firstSection{
+margin-top:10px;
+
+}
+.portfolio{
+height: 410vh;
+
+}
+.ourTeam{
+height: 170vh;
+}
+}
+
